@@ -1055,23 +1055,67 @@ img{
         font-size:16px;
         padding:8px 0;
     }
+    .sec1{
+        height: auto;
+    }
     .overall{
         /* display: flex; */
         flex-direction: column;
         width: 100%;
+        height: auto;
+    }
+    .box1,.box2{
+        width: 100%;
         height: 100%;
-
+    }
+    .box1{
+        margin-bottom: 3%;
+    }
+    .cnt img{
+        width: 300px;
+        height: 100%;
     }
     .imgrig{
         width: 100%;
         height: 100%;
     }
-
+    .sec2{
+        margin-bottom: -19%;
+    }
     .box{
         width:140px;
         margin:15px auto;
     }
-
+    .sec3{
+        height: auto;
+    }
+    .overall2{
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .gridbx{
+        margin-left: 5%;
+    }
+    .box3{
+        overflow: scroll;
+        scrollbar-width: none;
+        column-gap: 20px;
+    }
+    .scheme-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        margin-left: 12%;
+    }
+    .sec4{
+        flex-direction: column;
+        height: auto;
+    }
+    .sec5,.sec6,.sec7{
+        height: auto;
+    }
     .btn2{
         width:120px;
         height:40px;
@@ -1089,7 +1133,9 @@ img{
         height:auto;
         padding:15px;
     }
-
+    .sec2,.sec3,.sec4,.sec5,.sec6,.sec7{
+        height: auto;
+    }
     .container-fluid{
         display:flex;
         flex-wrap:nowrap;
@@ -1117,7 +1163,12 @@ img{
     .navbar-nav .nav-link{
         font-size:17px;
     }
-
+    .overall2{
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
     .box{
         margin:15px auto;
     }
@@ -1125,6 +1176,24 @@ img{
     .btn2{
         display:block;
         margin:10px auto;
+    }
+    .sec2{
+        margin-bottom: 5%;
+    }
+    .box3{
+        overflow: scroll;
+        scrollbar-width: none;
+        column-gap: 20px;
+    }
+    .scheme-container{
+        grid-template-columns: repeat(2,1fr);
+        overflow: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+    .sec4{
+        flex-direction: column;
+        height: auto;
     }
     
 }
@@ -1134,6 +1203,10 @@ img{
 =========================================*/
 @media (min-width:768px) and (max-width:991.98px){
 
+
+    .sec2,.sec3,.sec4,.sec5,.sec6,.sec7{
+        height: auto;
+    }
     .navbar{
         height:auto;
         padding:15px 20px;
@@ -1158,11 +1231,28 @@ img{
     .navbar-nav .nav-link{
         font-size:18px;
     }
+    .sec2{
+        margin-bottom: 5%;
+    }
 
     .box{
         margin-top:15px;
     }
-
+    .support{
+        flex-direction: row;
+    }
+    .scheme-container{
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .overall2{
+        margin-left: 5%;
+    }
+    .box3{
+        overflow: scroll;
+        scrollbar-width: none;
+        column-gap: 20px;
+    }
     .btn2{
         margin-top:15px;
     }
@@ -1172,7 +1262,10 @@ img{
   Large Devices (992px - 1199.98px)
 =========================================*/
 @media (min-width:992px) and (max-width:1199.98px){
-
+    
+    .sec2,.sec3,.sec4,.sec5,.sec6,.sec7{
+        height: auto;
+    }
     .navbar{
         padding:15px 20px;
     }
@@ -1192,7 +1285,13 @@ img{
     .navbar-nav .nav-link{
         font-size:18px;
     }
-
+    .overall2{
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .sec2{
+        margin-bottom: 5%;
+    }
     .box{
         margin-left:auto;
     }
